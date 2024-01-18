@@ -1,6 +1,6 @@
 -- Which three teams had the losingest seasons?
 
-SELECT name, year, park, wins, losses FROM teams
+SELECT name, year,  wins, losses FROM teams
 ORDER BY losses DESC
 LIMIT 3;
 
